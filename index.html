@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pages</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+  <section>
+    <img src="./images/azz2.png" class="col-1">
+    <img src="./images/azz2.png" class="col-1">
+    <img src="./images/azz2.png" class="col-1">
+    <img src="./images/azz2.png" class="col-1">
+    <img src="./images/azz2.png" class="col-1">
+    <img src="./images/azz2.png" class="col-1">
+    <img src="./images/azz2.png" class="col-1">
+    <img src="./images/azz2.png" class="col-1">
+     <img src="./images/azz2.png" class="col-1">
+    <img src="./images/azz2.png" class="col-1">
+    <img src="./images/azz2.png" class="col-1">
+  </section>
+  <section>
+    <h1 class="text-center">ECOLE CONDUITE MAROCAINE EL AZALI NADOR</h1>
+  </section>
+ <nav class="navbar navbar-expand-lg bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" href="#">ECM EL AZALI :</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./autres/about.html">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./autres/services.html">services</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="./autres/contactus.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            contact us
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <section>
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous - Bootstrap 5</title>
+    
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- Police Google Fonts (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #4e73df;
+            --secondary-color: #858796;
+            --bg-light: #f8f9fc;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-light);
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* En-tête de section */
+        .page-header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #224abe 100%);
+            color: white;
+            padding: 80px 0 40px;
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+
+        .page-header h1 {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        /* Carte de contact */
+        .contact-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.08);
+            border: none;
+            padding: 40px;
+            height: 100%;
+            transition: transform 0.3s ease;
+        }
+
+        .contact-info-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 30px;
+        }
+
+        .icon-box {
+            background-color: rgba(78, 115, 223, 0.1);
+            color: var(--primary-color);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+
+        .info-content h5 {
+            font-weight: 600;
+            margin-bottom: 5px;
+            font-size: 1.1rem;
+        }
+
+        .info-content p {
+            margin-bottom: 0;
+            color: var(--secondary-color);
+            font-size: 0.95rem;
+        }
+
+        /* Formulaire */
+        .form-floating input:focus,
+        .form-floating textarea:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.25rem rgba(78, 115, 223, 0.25);
+        }
+
+        .form-floating label {
+            color: #aaa;
+        }
+
+        .btn-custom {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+        }
+
+        .btn-custom:hover {
+            background-color: #2e59d9;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(78, 115, 223, 0.4);
+            color: white;
+        }
+
+        /* Carte de carte (Map) */
+        .map-container {
+            height: 100%;
+            min-height: 250px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.08);
+            background-color: #e9ecef;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        
+        /* Simulation visuelle de carte */
+        .map-placeholder {
+            width: 100%;
+            height: 100%;
+            background-image: url('https://picsum.photos/seed/maplocation/800/400'); 
+            background-size: cover;
+            background-position: center;
+            filter: grayscale(30%);
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+        
+        .map-placeholder:hover {
+            opacity: 1;
+        }
+
+        /* Notification Toast */
+        .toast-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1055;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .page-header {
+                padding: 60px 0 30px;
+            }
+            .contact-card {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Hero Section -->
+    <header class="page-header">
+        <div class="container">
+            <h1>Contactez-Nous</h1>
+            <p class="lead mb-0">Une question ? Une suggestion ? Nous serions ravis d'avoir de vos nouvelles.</p>
+        </div>
+    </header>
+
+    <main class="container pb-5">
+        <div class="row g-4">
+            
+            <!-- Colonne Gauche : Formulaire -->
+            <div class="col-lg-7">
+                <div class="contact-card">
+                    <h4 class="mb-4">Envoyez-nous un message</h4>
+                    <form id="contactForm" novalidate>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Votre nom" required>
+                                    <label for="name">Votre Nom</label>
+                                    <div class="invalid-feedback">
+                                        Veuillez entrer votre nom.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                                    <label for="email">Adresse Email</label>
+                                    <div class="invalid-feedback">
+                                        Veuillez entrer une adresse email valide.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Sujet" required>
+                                    <label for="subject">Sujet</label>
+                                    <div class="invalid-feedback">
+                                        Veuillez entrer un sujet.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Message" id="message" style="height: 150px" required></textarea>
+                                    <label for="message">Votre Message</label>
+                                    <div class="invalid-feedback">
+                                        Veuillez entrer votre message.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mt-4">
+                                <button type="submit" class="btn btn-custom w-100" id="submitBtn">
+                                    <span id="btnText">Envoyer le message</span>
+                                    <span id="btnSpinner" class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Colonne Droite : Informations + Map -->
+            <div class="col-lg-5">
+                <div class="d-flex flex-column gap-4">
+                    
+                    <!-- Carte Informations -->
+                    <div class="contact-card">
+                        <h4 class="mb-4">Nos Coordonnées</h4>
+                        
+                        <div class="contact-info-item">
+                            <div class="icon-box">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <div class="info-content">
+                                <h5>Adresse</h5>
+                                <p>QU OULAD BOUTYEB SECTEUR B<br>62000 NADOR, maroc</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="icon-box">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <div class="info-content">
+                                <h5>Email</h5>
+                                <p>pronadmax@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="icon-box">
+                                <i class="bi bi-telephone-fill"></i>
+                            </div>
+                            <div class="info-content">
+                                <h5>Téléphone</h5>
+                                <p>+212616375130<br>Lun-dimanche, 7h-21h</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carte Carte (Map) -->
+                    <div class="map-container">
+                        <div class="map-placeholder d-flex align-items-center justify-content-center">
+                            <div class="text-center text-white fw-bold bg-dark bg-opacity-50 px-3 py-2 rounded">
+                                <i class="bi bi-map"></i> Voir sur la carte
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Simple -->
+    <footer class="bg-white py-4 mt-auto border-top">
+        <div class="container text-center">
+            <p class="text-muted mb-0 small">&copy; 2023 MonEntreprise. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Notification Toast (Cachée par défaut) -->
+    <div class="toast-container">
+        <div id="successToast" class="toast align-items-center text-white bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">
+                    <i class="bi bi-check-circle-fill me-2"></i> Message envoyé avec succès !
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contactForm');
+            const submitBtn = document.getElementById('submitBtn');
+            const btnText = document.getElementById('btnText');
+            const btnSpinner = document.getElementById('btnSpinner');
+            const successToastEl = document.getElementById('successToast');
+            const successToast = new bootstrap.Toast(successToastEl);
+
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();
+                event.stopPropagation();
+
+                // Validation Bootstrap
+                if (!form.checkValidity()) {
+                    form.classList.add('was-validated');
+                    return;
+                }
+
+                // Simulation d'envoi (Loading state)
+                submitBtn.disabled = true;
+                btnText.textContent = "Envoi en cours...";
+                btnSpinner.classList.remove('d-none');
+
+                // Simuler un délai réseau (2 secondes)
+                setTimeout(() => {
+                    // Reset du formulaire
+                    form.reset();
+                    form.classList.remove('was-validated');
+                    
+                    // Reset du bouton
+                    submitBtn.disabled = false;
+                    btnText.textContent = "Envoyer le message";
+                    btnSpinner.classList.add('d-none');
+
+                    // Afficher le toast de succès
+                    successToast.show();
+                }, 2000);
+            });
+        });
+    </script>
+</body>
+</html>
+  </section>  
+
+
+    <script src="dom.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
